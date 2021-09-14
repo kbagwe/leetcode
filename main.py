@@ -1,5 +1,6 @@
 import ReverseInteger
 import TwoSum
+import PalindromeNumber
 
 
 #=============================================#
@@ -25,3 +26,6 @@ print(revInt.reverse(-123))
 print(revInt.reverse(0))
 '''
 #=================================================#
+
+pal = PalindromeNumber.Solution()
+print(pal.isPalindrome(121))

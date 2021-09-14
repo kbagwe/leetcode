@@ -17,10 +17,6 @@ class Solution:
             return 0
         return -revNum if negNum else revNum
 
-        if x == revNum:
-            print("Number is palindrome")
-        else:
-            print("Number is not a palindrome")
 
 a = Solution()
 print(a.reverse(121))
