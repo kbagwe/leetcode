@@ -1,3 +1,4 @@
+import LongestCommonPrefix
 import ReverseInteger
 import RomanToInteger
 import TwoSum
@@ -42,6 +43,13 @@ print(rti.romanToInt("IX"))
 print(rti.romanToInt("LVIII"))
 print(rti.romanToInt("MCMXCIV"))
 '''
+#==================LongestCommonPrefix=========+#
+
+#------LCP-------
+lcp = LongestCommonPrefix.Solution()
+print(lcp.longestCommonPrefix(["flower","flow","flight"]))
+print(lcp.longestCommonPrefix(["cat","dog","animal"]))
+
 
 
 
