@@ -1,4 +1,5 @@
 import ReverseInteger
+import RomanToInteger
 import TwoSum
 import PalindromeNumber
 
@@ -26,6 +27,21 @@ print(revInt.reverse(-123))
 print(revInt.reverse(0))
 '''
 #=================================================#
-
+'''
+#---------PalindromeNumber-----------#
 pal = PalindromeNumber.Solution()
 print(pal.isPalindrome(121))
+'''
+#==================================================
+'''
+#---------RomanToInetger---------#
+rti = RomanToInteger.Solution()
+print(rti.romanToInt("XIV"))
+print(rti.romanToInt("III"))
+print(rti.romanToInt("IX"))
+print(rti.romanToInt("LVIII"))
+print(rti.romanToInt("MCMXCIV"))
+'''
+
+
+
