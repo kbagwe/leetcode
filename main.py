@@ -3,6 +3,7 @@ import ReverseInteger
 import RomanToInteger
 import TwoSum
 import PalindromeNumber
+import ValidParentheses
 
 
 #=============================================#
@@ -44,12 +45,20 @@ print(rti.romanToInt("LVIII"))
 print(rti.romanToInt("MCMXCIV"))
 '''
 #==================LongestCommonPrefix=========+#
-
+'''
 #------LCP-------
 lcp = LongestCommonPrefix.Solution()
 print(lcp.longestCommonPrefix(["flower","flow","flight"]))
 print(lcp.longestCommonPrefix(["cat","dog","animal"]))
 
+'''
+
+#===============ValidParentheses===============
+'''
+vp = ValidParentheses.Solution()
+print(vp.isValid("()[]{}"))
+print(vp.isValid("([)]"))
+'''
 
 
 
