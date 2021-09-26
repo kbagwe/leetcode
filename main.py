@@ -9,6 +9,7 @@ import ValidParentheses
 import AddTwoNumber
 import BuildArrayfromPermutation
 import ContainsDuplicate
+import RunningSumof1Darray
 
 # =============================================#
 '''------Two Sum ---------
@@ -80,3 +81,8 @@ print(bafp.buildArray([5,0,1,2,3,4]))
 cd = ContainsDuplicate.Solution()
 print(cd.containsDuplicate([1,1,1,3,3,4,3,2,4,2]))
 '''
+#=============RunningSumof1darray========
+'''
+'''
+rso1d = RunningSumof1Darray.Solution()
+print(rso1d.runningSum([[3,1,2,10,1]]))
