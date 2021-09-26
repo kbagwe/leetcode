@@ -7,6 +7,7 @@ import TwoSum
 import PalindromeNumber
 import ValidParentheses
 import AddTwoNumber
+import BuildArrayfromPermutation
 
 # =============================================#
 '''------Two Sum ---------
@@ -67,5 +68,10 @@ print(vp.isValid("([)]"))
 atn = AddTwoNumber.ListNode()
 print(atn.addTwoNumber(l1=[2, 4, 3], l2=[5, 6, 4]))
 '''
+#=======================BuildArrayfromPermutation==========
+
+bafp = BuildArrayfromPermutation.Solution()
+print(bafp.buildArray([5,0,1,2,3,4]))
+
 
 
